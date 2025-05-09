@@ -4,3 +4,6 @@
 [submodule "team-B-app"]
 	path = team-B-app
 	url = git@github.com:atulk3666/team-B.git
+[submodule "common-lib"]
+	path = common-lib
+	url = git@github.com:atulk3666/common-lib.git
