@@ -1,9 +1,18 @@
 [submodule "team-A-app"]
 	path = team-A-app
 	url = git@github.com:atulk3666/team-A.git
+	branch = main
 [submodule "team-B-app"]
 	path = team-B-app
 	url = git@github.com:atulk3666/team-B.git
+	branch = main
 [submodule "common-lib"]
 	path = common-lib
 	url = git@github.com:atulk3666/common-lib.git
+	branch = main
+[submodule "team-A-app/subteam-A"]
+    path = team-A-app/subteam-A
+    url = git@github.com:atul-repo/subteam-A.git
+[submodule "team-B-app/subteam-B"]
+    path = team-B-app/subteam-B
+    url = git@github.com:atul-repo/subteam-B.git
