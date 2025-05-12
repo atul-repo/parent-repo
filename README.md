@@ -21,7 +21,8 @@ cd parent-repo
 git submodule update --init --recursive
 ##########################################################################
 # If submodules are in detached HEAD, switch to branch (e.g., main)
-git submodule foreach --recursive 'git checkout main && git pull'
+cd parent-repo
+git checkout main && git pull && git submodule foreach --recursive 'git checkout main && git pull'
 
 # After pulling parent repo, sync submodules:
 git pull && git submodule update --init --recursive
