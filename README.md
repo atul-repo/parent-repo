@@ -14,6 +14,17 @@ parent-repo/
 ├── team-B-app/        # Application owned by Team B
 │   └── subteam-B/     # Nested submodule for Subteam B
 
+How to add a child repository (e.g., team-A-app) as a submodule to a parent repository.
+
+Step 1: Navigate to the Parent Repo
+cd /path/to/parent-repo
+Step 2: Add the Child Repo as a Submodule
+git submodule add <CHILD_REPO_URL> <OPTIONAL_PATH>
+Step 3: Commit the Submodule Link
+git commit -m "feat: Add team-A-app as a submodule"
+git push origin main
+
+
 ## To clone this repository along with all submodules and nested submodules:
 
 git clone git@github.com:atul-repo/parent-repo.git
